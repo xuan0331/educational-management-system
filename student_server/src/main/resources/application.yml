@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/studentms?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+
+
+sms:
+  appcode: "392b673f23cd40ea9729145d4b8f5ec9"
+  template-id: "CST_ptdie100"
+
+
+mybatis:
+  type-aliases-package: com.huyuxuan.student_server.entity
+  mapper-locations: classpath:mapper/*.xml
+
+server:
+  port: 10086
