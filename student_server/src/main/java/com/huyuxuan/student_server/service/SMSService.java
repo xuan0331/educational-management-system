@@ -14,7 +14,7 @@ public class SMSService {
     private static final String HOST = "https://dfsns.market.alicloudapi.com";
     private static final String PATH = "/data/send_sms";
     private static final String METHOD = "POST";
-    private static final String APP_CODE = "392b673f23cd40ea9729145d4b8f5ec9"; // 替换为真实值
+    private static final String APP_CODE = "your_APP_CODE"; // 替换为真实值
 
     public Map<String, Object> sendVerificationCode(String phoneNumber, String code) {
         Map<String, Object> result = new HashMap<>();
